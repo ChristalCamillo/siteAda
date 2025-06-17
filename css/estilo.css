@@ -37,14 +37,13 @@ img{
 
 ul{
     list-style-type: none;
-    
+    line-height: 2;
 }
 
 a{
     text-decoration: none;
     color: #99ffff;
     font-weight: 700;
-    line-height: 2;
 }
 
 h3.Infância{
