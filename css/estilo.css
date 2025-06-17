@@ -35,6 +35,18 @@ img{
     width: 100%;
 }
 
+ul{
+    list-style-type: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #99ffff;
+    font-weight: 700;
+    line-height: 2;
+}
+
 h3.Infância{
     color: #04ff9f;
 }
