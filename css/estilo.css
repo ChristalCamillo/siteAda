@@ -40,7 +40,20 @@ ul{
     line-height: 2;
 }
 
-a{
+.first-menu-pink{
+
+    list-style: none;
+    background-color: deeppink;
+
+
+    li{
+        display: inline-block;
+            margin-right: 10px;
+            /* add spacing between items */
+    }
+}
+
+.bottom-list-links{
     text-decoration: none;
     color: #99ffff;
     font-weight: 700;
