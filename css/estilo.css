@@ -41,19 +41,16 @@ ul{
 }
 
 .first-menu-pink {
+    max-width: 60%;
+    margin: 0 auto;
     background-color: #FF6CB5;
     height: 40px;
-    menu{
-        list-style: none;
-    
-            li{
-                display: inline-block;
-                /* margin-right: 30px;
-                text-align: 0;
-                padding: 0;
-                margin: 0 auto; */
-            }
-    }
+}
+
+.first-menu-pink li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
 }
 
 .first-menu-pink a{
