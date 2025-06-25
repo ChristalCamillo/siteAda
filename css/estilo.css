@@ -4,6 +4,7 @@ body{
     background-color: #8A71C9;
     color: #ffffff;
     margin: 0px;
+    margin-bottom: 30px;
 }
 
 section{
@@ -28,6 +29,18 @@ h2{
 h3{
     font-size: 22px;
     font-style: italic;
+}
+
+h3.Infância {
+    color: #04ff9f;
+}
+
+h3.Juventude {
+    color: #FF9E9E;
+}
+
+h3.VidaAdulta {
+    color: #ffe36d;
 }
 
 p{
@@ -70,14 +83,16 @@ ul{
     font-weight: 700;
 }
 
-h3.Infância{
-    color: #04ff9f;
-}
+/* div.form-contato .button-enviar-email{
+        background-color: #41f341;
+        border-style: solid;
+        border-width: 1px;
+} */
 
-h3.Juventude{
-    color: #FF9E9E;
-}
-
-h3.VidaAdulta{
-    color: #ffe36d;
+#enviar{
+    background-color: #41f341;
+    /* borda sólida de 1px de largura e transparente; */
+    border: 1px solid transparent;
+    border-radius: 3px;
+    padding: 2px 20px;
 }
