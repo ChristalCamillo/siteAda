@@ -8,6 +8,8 @@ var email = document.getElementById("email").value
 if (nome != "" && email != "") {
     alert("Tudo certo!")
 
+    document.getElementById("botaoEnviar").addEventListener("click",)
+
 } else {
     alert("Preencha nome e email para receber as novidades!")
 }
