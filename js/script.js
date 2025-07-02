@@ -4,16 +4,12 @@
 
 var nome = document.getElementById("nome").value
 var email = document.getElementById("email").value
-// var telefone = document.getElementById("telefone").value
 
-document.getElementById("botaoEnviar").addEventListener("click", formValidation)
+if (nome != "" && email != "") {
+    alert("Tudo certo!")
 
-function formValidation() {
-    if ((nome != "" && email != "")) {
+    document.getElementById("botaoEnviar").addEventListener("click",)
 
-        alert("legal")
-
-    } else {
-        alert("bad")
-    }
+} else {
+    alert("Preencha nome e email para receber as novidades!")
 }
