@@ -77,11 +77,18 @@ ul{
 
 }
 
-.bottom-list-links{
+.bottom-list-links {
     text-decoration: none;
-    color: #99ffff;
     font-weight: 700;
+    color: #99ffff;
 }
+
+.bottom-list-links:hover, :focus {
+    color: hotpink;
+    background-color: #ffe36d;
+}
+
+
 
 /* div.form-contato .button-enviar-email{
         background-color: #41f341;
